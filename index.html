@@ -3,12 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Политика конфиденциальности Clarote</title>
+<title>Clarote: Privacy Policy / Политика конфиденциальности</title>
 <style>
-  :root { --bg:#fff; --fg:#0f172a; --muted:#64748b; --line:#e2e8f0; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0f172a; --fg:#f1f5f9; --muted:#94a3b8; --line:#1e293b; } }
+  :root { --bg:#fff; --fg:#0f172a; --muted:#64748b; --line:#e2e8f0; --accent:#4f46e5; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f172a; --fg:#f1f5f9; --muted:#94a3b8; --line:#1e293b; --accent:#818cf8; } }
   body { background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; margin:0; }
-  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  main { max-width:720px; margin:0 auto; padding:24px 16px 64px; }
+  nav { display:flex; gap:12px; padding-bottom:16px; margin-bottom:24px; border-bottom:1px solid var(--line); }
+  nav a { color:var(--accent); font-weight:600; text-decoration:none; }
+  nav a:hover { text-decoration:underline; }
+  section { margin-bottom:56px; }
   h1 { font-size:1.6rem; margin:0 0 4px; }
   h2 { font-size:1.1rem; margin:28px 0 6px; }
   p { margin:0 0 12px; }
@@ -18,6 +22,8 @@
 </head>
 <body>
 <main>
+<nav><a href="#ru">Русский</a><a href="#en">English</a></nav>
+<section id="ru" lang="ru">
 <h1>Политика конфиденциальности Clarote</h1>
 <p class="meta">Последнее обновление: 05.11.2026</p>
 
@@ -49,6 +55,40 @@
 
 <h2>9. Контакты</h2>
 <p>Вопросы по этой политике: <a href="mailto:shahriyartechstack@gmail.com">shahriyartechstack@gmail.com</a>.</p>
+</section>
+<section id="en" lang="en">
+<h1>Clarote Privacy Policy</h1>
+<p class="meta">Last updated: 5 November 2026</p>
+
+<p>Clarote (&ldquo;the app&rdquo;) is provided by Active Dream Studio (&ldquo;we&rdquo;). This policy explains what the app does with your data. Contact: <a href="mailto:shahriyartechstack@gmail.com">shahriyartechstack@gmail.com</a>.</p>
+
+<h2>1. Your notes stay on your device</h2>
+<p>Notes, summaries and settings are stored locally on your phone. We do not run a server for the app, we do not have user accounts, and we cannot see your notes.</p>
+
+<h2>2. On-device AI</h2>
+<p>In On-device mode, AI runs on your phone. The first time you use it, the app downloads an AI model file from Hugging Face (huggingface.co). As with any download, Hugging Face can see your IP address and the file requested. Your notes are not sent there.</p>
+
+<h2>3. Gemini mode (optional)</h2>
+<p>If you turn on Gemini mode and add your own Google AI Studio API key, the text you choose to process with AI (for example, a note you ask to summarize) is sent from your phone directly to Google&rsquo;s Gemini API. We do not receive it. Google&rsquo;s handling of that text is governed by Google&rsquo;s terms and privacy policy for the Gemini API. On free tiers, Google may use submitted content to improve its products. Your API key is stored encrypted on your device and is sent only to Google&rsquo;s Gemini API. You can disconnect Gemini at any time in AI settings, which deletes the key from the app.</p>
+
+<h2>4. Microphone and speech recognition</h2>
+<p>The app asks for microphone permission to turn your speech into text. Speech recognition is performed by the speech recognition service of your device. It may be provided by Google and, depending on your device settings, may process audio on its servers.</p>
+
+<h2>5. What we do not do</h2>
+<p>We do not show ads, do not sell or share your data, and do not use third-party analytics or crash-reporting tools.</p>
+
+<h2>6. Deleting your data</h2>
+<p>You can delete notes inside the app at any time. Uninstalling the app removes all data the app stored on your device, including the downloaded AI model. App data is excluded from device backups.</p>
+
+<h2>7. Children</h2>
+<p>The app is not directed to children under 13, and we do not knowingly collect their data.</p>
+
+<h2>8. Changes</h2>
+<p>If we change this policy, we will update the date above. Material changes will be described in the app or on the store page.</p>
+
+<h2>9. Contact</h2>
+<p>Questions about this policy: <a href="mailto:shahriyartechstack@gmail.com">shahriyartechstack@gmail.com</a>.</p>
+</section>
 </main>
 </body>
 </html>
